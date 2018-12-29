@@ -1,0 +1,29 @@
+{
+    "name": "sjje/sjje",
+    "authors": [
+        {
+            "name": "chengyuanlong",
+            "email": "chengyuanlong@rsung.com"
+        }
+    ],
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
